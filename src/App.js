@@ -24,8 +24,7 @@ class App extends Component  {
             .then(response=>response.json())
             .then(users => this.setState({robots: users}));
     }
-
-
+    //ededwdgvwgvdjhwvdhjlvwdvwvdjhwvd
     render() {
         console.log('render');
         const filteredRobots = this.state.robots.filter(robots => {
